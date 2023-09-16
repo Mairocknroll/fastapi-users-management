@@ -43,3 +43,4 @@ async def hello_world():
     )
 
     return JSONResponse(status_code=status.HTTP_200_OK, content=res.model_dump())
+
